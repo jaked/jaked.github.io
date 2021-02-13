@@ -2,17 +2,11 @@
 <rss version="2.0">
     <channel>
         <title>Technical Difficulties</title>
-        <link>undefined</link>
-        <description></description>
-        <lastBuildDate>Sat, 13 Feb 2021 06:20:30 GMT</lastBuildDate>
+        <link>https://jaked.org/blog/</link>
+        <description>Mostly programming</description>
+        <lastBuildDate>Sat, 13 Feb 2021 06:24:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Programmable Matter</generator>
         <copyright>© 2021 Jake Donham</copyright>
-        <item>
-            <title><![CDATA[Recurse Center]]></title>
-            <link>https://jaked.org/blog/2021-02-12-Recurse-Center</link>
-            <guid>https://jaked.org/blog/2021-02-12-Recurse-Center</guid>
-            <pubDate>Fri, 12 Feb 2021 00:00:00 GMT</pubDate>
-        </item>
     </channel>
 </rss>
