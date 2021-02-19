@@ -4,10 +4,16 @@
         <title>Technical Difficulties</title>
         <link>https://jaked.org/blog/</link>
         <description>Mostly programming</description>
-        <lastBuildDate>Sat, 13 Feb 2021 06:26:12 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Feb 2021 06:03:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Programmable Matter</generator>
         <copyright>© 2021 Jake Donham</copyright>
+        <item>
+            <title><![CDATA[How to run Electron on Linux on Docker on Mac]]></title>
+            <link>https://jaked.org/blog/2021-02-18-How-to-run-Electron-on-Linux-on-Docker-on-Mac</link>
+            <guid>https://jaked.org/blog/2021-02-18-How-to-run-Electron-on-Linux-on-Docker-on-Mac</guid>
+            <pubDate>Thu, 18 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Recurse Center]]></title>
             <link>https://jaked.org/blog/2021-02-12-Recurse-Center</link>
