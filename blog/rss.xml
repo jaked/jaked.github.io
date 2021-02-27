@@ -4,10 +4,16 @@
         <title>Technical Difficulties</title>
         <link>https://jaked.org/blog/</link>
         <description>Mostly programming</description>
-        <lastBuildDate>Fri, 19 Feb 2021 06:03:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Feb 2021 05:45:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Programmable Matter</generator>
         <copyright>© 2021 Jake Donham</copyright>
+        <item>
+            <title><![CDATA[Slate Explorer, a tool for exploring the Slate API]]></title>
+            <link>https://jaked.org/blog/2021-02-26-Slate-Explorer</link>
+            <guid>https://jaked.org/blog/2021-02-26-Slate-Explorer</guid>
+            <pubDate>Fri, 26 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How to run Electron on Linux on Docker on Mac]]></title>
             <link>https://jaked.org/blog/2021-02-18-How-to-run-Electron-on-Linux-on-Docker-on-Mac</link>
