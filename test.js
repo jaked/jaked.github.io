@@ -6,19 +6,31 @@ import * as Runtime from '/__runtime/Runtime.js';
 
 const __e = (el, props, ...children) => React.createElement(el, props, ...children)
 
-const x = 11;
-const y = 7;
-
-const Big = ({
-  children: children
-}) => __e("div", {
+const Ball = ({
+  r: r,
+  x: x,
+  y: y,
+  fill: fill
+}) => __e("svg", {
+  height: r * 2,
+  width: r * 2,
   style: {
-    fontSize: "72px"
+    position: "fixed",
+    top: y - r,
+    left: x - r
   }
-}, children);
+}, null, __e("ellipse", {
+  cx: r,
+  cy: r,
+  rx: r,
+  ry: r,
+  fill: fill
+}), null);
 
-const Comp = () => {
-  7;
-  8;
-};
-
+const theta = Runtime.now.map(now => now / 500 % (2 * Math.PI));
+ReactDOM.hydrate(Signal.node(Signal.join(Runtime.mouse, theta).map(([mouse, theta]) => __e(Ball, {
+  r: 25,
+  x: mouse.clientX + Math.cos(theta) * 50,
+  y: mouse.clientY + Math.sin(theta) * 50,
+  fill: "pink"
+}))), document.getElementById("__root0"));
