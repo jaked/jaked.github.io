@@ -6,31 +6,27 @@ import * as Runtime from '/__runtime/Runtime.js';
 
 const __e = (el, props, ...children) => React.createElement(el, props, ...children)
 
-const Ball = ({
-  r: r,
-  x: x,
-  y: y,
-  fill: fill
-}) => __e("svg", {
-  height: r * 2,
-  width: r * 2,
-  style: {
-    position: "fixed",
-    top: y - r,
-    left: x - r
-  }
-}, null, __e("ellipse", {
-  cx: r,
-  cy: r,
-  rx: r,
-  ry: r,
-  fill: fill
-}), null);
+const x = Signal.cellOk(57);
+const y = Signal.cellOk("86");
 
-const theta = Runtime.now.map(now => now / 500 % (2 * Math.PI));
-ReactDOM.hydrate(Signal.node(Signal.join(Runtime.mouse, theta).map(([mouse, theta]) => __e(Ball, {
-  r: 25,
-  x: mouse.clientX + Math.cos(theta) * 50,
-  y: mouse.clientY + Math.sin(theta) * 50,
-  fill: "pink"
-}))), document.getElementById("__root0"));
+const Range = ({
+  value: value,
+  onChange: onChange
+}) => __e("input", {
+  type: "range",
+  onChange: e => onChange(e.currentTarget.value),
+  value: value
+});
+ReactDOM.hydrate(Signal.node(Signal.join(Signal.join(x, x).map(() => () => x.map(__v => (x.setOk(__v + 1), __v + 1)).get()), x).map(__v => __e("button", {
+  onClick: __v[0]
+}, __v[1]))), document.getElementById("__root0"));
+ReactDOM.hydrate(Signal.node(x), document.getElementById("__root1"));
+ReactDOM.hydrate(Signal.node(Signal.join(y, Signal.join(y).map(() => v => (y.setOk(v), v).get())).map(__v => __e(Range, {
+  value: __v[0],
+  onChange: __v[1]
+}))), document.getElementById("__root2"));
+ReactDOM.hydrate(Signal.node(y.map(__v => __e("div", {
+  style: {
+    fontSize: __v + "px"
+  }
+}, "foo"))), document.getElementById("__root3"));
