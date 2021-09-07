@@ -4,12 +4,12 @@
         <title>Technical Difficulties</title>
         <link>https://jaked.org/blog/</link>
         <description>Mostly programming</description>
-        <lastBuildDate>Tue, 07 Sep 2021 18:36:52 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Sep 2021 18:57:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Programmable Matter</generator>
         <copyright>© 2021 Jake Donham</copyright>
         <item>
-            <title><![CDATA[Reconstructing TypeScript (part 1)]]></title>
+            <title><![CDATA[Reconstructing TypeScript, part 0: intro and background]]></title>
             <link>https://jaked.org/blog/2021-09-07-Reconstructing-TypeScript-part-0</link>
             <guid>https://jaked.org/blog/2021-09-07-Reconstructing-TypeScript-part-0</guid>
             <pubDate>Tue, 07 Sep 2021 00:00:00 GMT</pubDate>
