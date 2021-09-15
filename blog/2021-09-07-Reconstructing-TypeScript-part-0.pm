@@ -1643,7 +1643,7 @@
               type: 'p',
               children: [
                 {
-                  text: 'Part 1: implementing bidirectional type checking',
+                  text: 'Part 1: bidirectional type checking',
                 },
               ],
             },
@@ -1656,7 +1656,7 @@
               type: 'p',
               children: [
                 {
-                  text: 'Part 2: implementing functions and function calls',
+                  text: 'Part 2: functions and function calls',
                 },
               ],
             },
@@ -1669,7 +1669,7 @@
               type: 'p',
               children: [
                 {
-                  text: 'Part 3: implementing singleton / literal types and arithmetic / logical operators',
+                  text: 'Part 3: singleton / literal types and arithmetic / logical operators',
                 },
               ],
             },
@@ -1682,7 +1682,7 @@
               type: 'p',
               children: [
                 {
-                  text: 'Part 4: implementing union types',
+                  text: 'Part 4: union types',
                 },
               ],
             },
@@ -1695,7 +1695,7 @@
               type: 'p',
               children: [
                 {
-                  text: 'Part 5: implementing intersection types',
+                  text: 'Part 5: intersection types',
                 },
               ],
             },
@@ -1708,7 +1708,7 @@
               type: 'p',
               children: [
                 {
-                  text: 'Part 6: implementing narrowing',
+                  text: 'Part 6: narrowing',
                 },
               ],
             },

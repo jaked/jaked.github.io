@@ -48,6 +48,31 @@
               type: 'p',
               children: [
                 {
+                  text: '2021-09-15 ',
+                },
+                {
+                  type: 'a',
+                  href: '/blog/2021-09-15-Reconstructing-TypeScript-part-1',
+                  children: [
+                    {
+                      text: 'Reconstructing TypeScript, part 1: bidirectional type checking',
+                    },
+                  ],
+                },
+                {
+                  text: '',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'li',
+          children: [
+            {
+              type: 'p',
+              children: [
+                {
                   text: '2021-09-07 ',
                 },
                 {
