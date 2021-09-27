@@ -4,10 +4,16 @@
         <title>Technical Difficulties</title>
         <link>https://jaked.org/blog/</link>
         <description>Mostly programming</description>
-        <lastBuildDate>Thu, 16 Sep 2021 19:41:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Sep 2021 21:21:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Programmable Matter</generator>
         <copyright>© 2021 Jake Donham</copyright>
+        <item>
+            <title><![CDATA[Reconstructing TypeScript, part 2: functions and function types]]></title>
+            <link>https://jaked.org/blog/2021-09-27-Reconstructing-TypeScript-part-2</link>
+            <guid>https://jaked.org/blog/2021-09-27-Reconstructing-TypeScript-part-2</guid>
+            <pubDate>Mon, 27 Sep 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Reconstructing TypeScript, part 1: bidirectional type checking]]></title>
             <link>https://jaked.org/blog/2021-09-15-Reconstructing-TypeScript-part-1</link>
