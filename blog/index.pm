@@ -48,6 +48,31 @@
               type: 'p',
               children: [
                 {
+                  text: '2021-09-27 ',
+                },
+                {
+                  type: 'a',
+                  href: '/blog/2021-09-27-Reconstructing-TypeScript-part-2',
+                  children: [
+                    {
+                      text: 'Reconstructing TypeScript, part 2: functions and function calls',
+                    },
+                  ],
+                },
+                {
+                  text: '',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'li',
+          children: [
+            {
+              type: 'p',
+              children: [
+                {
                   text: '2021-09-15 ',
                 },
                 {

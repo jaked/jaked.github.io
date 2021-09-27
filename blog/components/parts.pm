@@ -61,7 +61,19 @@
               type: 'p',
               children: [
                 {
-                  text: 'Part 2: functions and function calls',
+                  text: '',
+                },
+                {
+                  type: 'a',
+                  href: '/blog/2021-09-27-Reconstructing-TypeScript-part-2',
+                  children: [
+                    {
+                      text: 'Part 2: functions and function calls',
+                    },
+                  ],
+                },
+                {
+                  text: '',
                 },
               ],
             },

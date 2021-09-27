@@ -1730,6 +1730,30 @@
       type: 'p',
       children: [
         {
+          text: 'Update',
+          bold: true,
+        },
+        {
+          text: ": if you don't want to read through this (pretty tedious!) explanation, head down to ",
+        },
+        {
+          type: 'a',
+          href: '/blog/2021-09-15-Reconstructing-TypeScript-part-1#try-it',
+          children: [
+            {
+              text: 'Try it!',
+            },
+          ],
+        },
+        {
+          text: ' and click "check object error" to see the call tree for this example.',
+        },
+      ],
+    },
+    {
+      type: 'p',
+      children: [
+        {
           text: "Let's walk through an example in detail:",
         },
       ],
@@ -2063,21 +2087,14 @@
       type: 'p',
       children: [
         {
-          text: 'You can try out the type checker below: type an expression into the top box, see its synthesized type (or an error) in the bottom box. To check an expression against a type, ascribing a type with ',
+          text: 'You can try out the type checker below. In the top box, click on an example button or type an expression (remember that the supported expressions are primitive literals, object expressions, member expressions, and ',
         },
         {
           text: 'as',
           code: true,
         },
         {
-          text: '. (Remember that the only supported expressions in this fragment are primitive literals, object expressions, member expressions, and ',
-        },
-        {
-          text: 'as',
-          code: true,
-        },
-        {
-          text: ' ascriptions.)',
+          text: " ascriptions). In the bottom box you'll see a trace of the type checker execution, ending in a synthesized type (or an error). The trace is a tree of function calls; click on a function call to expand the tree under that call, or mouse over a call to highlight the matching return value.",
         },
       ],
     },
@@ -2085,7 +2102,7 @@
       type: 'liveCode',
       children: [
         {
-          text: '<iframe\n  src="https://jaked.org/reconstructing-typescript/part1/"\n  width={700}\n  height={300}\n  style={{ borderStyle: \'none\' }}\n/>',
+          text: '<iframe\n  src="https://jaked.org/reconstructing-typescript/part1/"\n  width={700}\n  height={500}\n  style={{ borderStyle: \'none\' }}\n/>',
         },
       ],
     },
