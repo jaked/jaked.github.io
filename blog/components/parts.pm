@@ -86,7 +86,19 @@
               type: 'p',
               children: [
                 {
-                  text: 'Part 3: singleton / literal types and arithmetic / logical operators',
+                  text: '',
+                },
+                {
+                  type: 'a',
+                  href: '/blog/2021-10-06-Reconstructing-TypeScript-part-3',
+                  children: [
+                    {
+                      text: 'Part 3: operators and singleton types',
+                    },
+                  ],
+                },
+                {
+                  text: '',
                 },
               ],
             },

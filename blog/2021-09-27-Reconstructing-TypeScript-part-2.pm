@@ -585,7 +585,7 @@
           ],
         },
         {
-          text: '',
+          text: '.',
         },
       ],
     },
@@ -657,7 +657,20 @@
       type: 'p',
       children: [
         {
-          text: 'To synthesize a type from a variable expression, we look it up in the environment:',
+          text: 'To synthesize a type from a variable expression (',
+        },
+        {
+          type: 'a',
+          href: 'https://github.com/babel/babel/blob/v7.15.3/packages/babel-types/src/ast-types/generated/index.ts#L513',
+          children: [
+            {
+              text: 'Identifier',
+              code: true,
+            },
+          ],
+        },
+        {
+          text: '), we look it up in the environment:',
         },
       ],
     },
@@ -690,7 +703,20 @@
       type: 'p',
       children: [
         {
-          text: 'To synthesize a type from a function expression like',
+          text: 'To synthesize a type from a function expression (',
+        },
+        {
+          type: 'a',
+          href: 'https://github.com/babel/babel/blob/v7.15.3/packages/babel-types/src/ast-types/generated/index.ts#L761',
+          children: [
+            {
+              text: 'ArrowFunctionExpression',
+              code: true,
+            },
+          ],
+        },
+        {
+          text: ') like',
         },
       ],
     },
@@ -806,7 +832,20 @@
       type: 'p',
       children: [
         {
-          text: 'To synthesize a type from a call expression like',
+          text: 'To synthesize a type from a call expression (',
+        },
+        {
+          type: 'a',
+          href: 'https://github.com/babel/babel/blob/v7.15.3/packages/babel-types/src/ast-types/generated/index.ts#L412',
+          children: [
+            {
+              text: 'CallExpression',
+              code: true,
+            },
+          ],
+        },
+        {
+          text: ') like',
         },
       ],
     },
@@ -1535,7 +1574,7 @@
           ],
         },
         {
-          text: '. To view the changes between part1 and part2 see ',
+          text: '. To view the changes between part 1 and part 2 see ',
         },
         {
           type: 'a',
