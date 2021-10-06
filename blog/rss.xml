@@ -4,10 +4,16 @@
         <title>Technical Difficulties</title>
         <link>https://jaked.org/blog/</link>
         <description>Mostly programming</description>
-        <lastBuildDate>Tue, 05 Oct 2021 21:50:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Oct 2021 17:54:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Programmable Matter</generator>
         <copyright>© 2021 Jake Donham</copyright>
+        <item>
+            <title><![CDATA[Reconstructing TypeScript, part 3: singleton types and operators]]></title>
+            <link>https://jaked.org/blog/2021-10-06-Reconstructing-TypeScript-part-3</link>
+            <guid>https://jaked.org/blog/2021-10-06-Reconstructing-TypeScript-part-3</guid>
+            <pubDate>Wed, 06 Oct 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Reconstructing TypeScript, part 2: functions and function types]]></title>
             <link>https://jaked.org/blog/2021-09-27-Reconstructing-TypeScript-part-2</link>
