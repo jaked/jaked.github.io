@@ -111,6 +111,9 @@
           href: '/blog/index',
           children: [
             {
+              text: '📝 ',
+            },
+            {
               text: 'Technical Difficulties',
               bold: true,
             },
@@ -145,7 +148,7 @@
           href: 'https://github.com/jaked/programmable-matter',
           children: [
             {
-              text: 'Programmable Matter',
+              text: '💻 Programmable Matter',
               bold: true,
             },
           ],
@@ -180,7 +183,7 @@
           href: 'https://www.youtube.com/watch?v=0yX8wGCzWNs',
           children: [
             {
-              text: 'Leverage vs. Autonomy in a Large Software System',
+              text: '🎥 Leverage vs. Autonomy in a Large Software System',
               bold: true,
             },
           ],
@@ -218,7 +221,7 @@
           href: 'https://www.youtube.com/watch?v=55l12IOSthc',
           children: [
             {
-              text: 'talk',
+              text: '🎥 talk',
             },
           ],
         },
@@ -230,7 +233,7 @@
           href: 'https://drive.google.com/file/d/1aYupExDuAbUheDX4aycrxZDrc6stTcig/view',
           children: [
             {
-              text: 'paper',
+              text: '📝 paper',
             },
           ],
         },
@@ -267,7 +270,7 @@
           href: 'https://www.youtube.com/watch?v=bmIxIslimVY',
           children: [
             {
-              text: 'Scala By the Bay',
+              text: '🎥 Scala By the Bay',
             },
           ],
         },
@@ -279,7 +282,7 @@
           href: 'https://www.youtube.com/watch?v=VVpmMfT8aYw',
           children: [
             {
-              text: 'Twitter University',
+              text: '🎥 Twitter University',
             },
           ],
         },
@@ -333,7 +336,7 @@
           href: 'https://arxiv.org/pdf/1106.0478.pdf',
           children: [
             {
-              text: 'A Consistent Semantics of Self-Adjusting Computation',
+              text: '📝 A Consistent Semantics of Self-Adjusting Computation',
               bold: true,
             },
           ],
@@ -391,7 +394,7 @@
           href: 'http://jaked.org/froc/examples/froc-dom/talk/index.html',
           children: [
             {
-              text: 'Better AJAX UIs with Functional Reactive Programming',
+              text: '🔬 Better AJAX UIs with Functional Reactive Programming',
               bold: true,
             },
           ],
@@ -437,7 +440,7 @@
           href: 'https://jaked.org/froc',
           children: [
             {
-              text: 'froc',
+              text: '💻 froc',
               bold: true,
             },
           ],
@@ -543,7 +546,7 @@
           href: 'http://sigbovik.org/tr/2010-004.pdf',
           children: [
             {
-              text: 'A Natural Platform for Artificial Intelligence',
+              text: '📝 A Natural Platform for Artificial Intelligence',
               bold: true,
             },
           ],
@@ -577,7 +580,7 @@
           href: 'https://ambassadortothecomputers.blogspot.com/',
           children: [
             {
-              text: 'Ambassador to the Computers',
+              text: '📝 Ambassador to the Computers',
               bold: true,
             },
           ],
@@ -659,7 +662,7 @@
           href: 'https://ambassadortothecomputers.blogspot.com/p/reading-camlp4.html',
           children: [
             {
-              text: 'Reading Camlp4',
+              text: '📝 Reading Camlp4',
               bold: true,
             },
           ],
@@ -705,7 +708,7 @@
           href: 'http://cufp.org/archive/2008/slides/DonhamJake.pdf',
           children: [
             {
-              text: 'From OCaml to Javascript at Skydeck',
+              text: '🔬 From OCaml to Javascript at Skydeck',
               bold: true,
             },
           ],
@@ -751,7 +754,7 @@
           href: 'https://jaked.org/ocamljs',
           children: [
             {
-              text: 'ocamljs',
+              text: '💻 ocamljs',
               bold: true,
             },
           ],
@@ -810,7 +813,7 @@
           href: 'https://docs.google.com/presentation/d/1YV9GJGirPu-HnEI4-RWEGfCBTRN0R6RinfJeJJZZx6U/',
           children: [
             {
-              text: 'Fun with Twelf',
+              text: '🔬 Fun with Twelf',
               bold: true,
             },
           ],
@@ -857,7 +860,7 @@
           href: 'http://sigbovik.org/2007/papers/compost.pdf',
           children: [
             {
-              text: 'Compacting, Composting Garbage Collection',
+              text: '📝 Compacting, Composting Garbage Collection',
               bold: true,
             },
           ],
@@ -892,7 +895,7 @@
           href: 'https://www.sciencedirect.com/science/article/pii/S1571066105050681',
           children: [
             {
-              text: 'Combining SAT Methods with Non-Clausal Decision Heuristics',
+              text: '📝 Combining SAT Methods with Non-Clausal Decision Heuristics',
               bold: true,
             },
           ],
@@ -939,7 +942,7 @@
           href: 't2',
           children: [
             {
-              text: 'Hack Technology and Matte-Black Technology in ',
+              text: '📝 Hack Technology and Matte-Black Technology in ',
               bold: true,
             },
             {
