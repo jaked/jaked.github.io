@@ -48,6 +48,31 @@
               type: 'p',
               children: [
                 {
+                  text: '2021-10-14 ',
+                },
+                {
+                  type: 'a',
+                  href: '/blog/2021-10-14-Reconstructing-TypeScript-part-4',
+                  children: [
+                    {
+                      text: 'Reconstructing TypeScript, part 4: union types',
+                    },
+                  ],
+                },
+                {
+                  text: '',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'li',
+          children: [
+            {
+              type: 'p',
+              children: [
+                {
                   text: '2021-10-06 ',
                 },
                 {
@@ -55,7 +80,7 @@
                   href: '/blog/2021-10-06-Reconstructing-TypeScript-part-3',
                   children: [
                     {
-                      text: 'Reconstructing TypeScript part 3: operators and singleton types',
+                      text: 'Reconstructing TypeScript, part 3: operators and singleton types',
                     },
                   ],
                 },

@@ -111,7 +111,19 @@
               type: 'p',
               children: [
                 {
-                  text: 'Part 4: union types',
+                  text: '',
+                },
+                {
+                  type: 'a',
+                  href: '/blog/2021-10-14-Reconstructing-TypeScript-part-4',
+                  children: [
+                    {
+                      text: 'Part 4: union types',
+                    },
+                  ],
+                },
+                {
+                  text: '',
                 },
               ],
             },

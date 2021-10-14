@@ -568,7 +568,7 @@
       type: 'code',
       children: [
         {
-          text: "type Type = ... | Singleton\n\nexport type Singleton = {\n  type: 'Singleton';\n  base: Boolean | Number | String;\n  value: unknown;\n}",
+          text: "type Type = ... | Singleton;\n\ntype Singleton = {\n  type: 'Singleton';\n  base: Boolean | Number | String;\n  value: unknown;\n}",
         },
       ],
       language: 'typescript',
@@ -690,7 +690,7 @@
       type: 'code',
       children: [
         {
-          text: "export function singleton(value: boolean | number | string): Singleton {\n  switch (typeof value) {\n    case 'boolean': return { type: 'Singleton', base: boolean, value };\n    case 'number': return { type: 'Singleton', base: number, value };\n    case 'string': return { type: 'Singleton', base: string, value };\n  }\n}",
+          text: "function singleton(value: boolean | number | string): Singleton {\n  switch (typeof value) {\n    case 'boolean': return { type: 'Singleton', base: boolean, value };\n    case 'number': return { type: 'Singleton', base: number, value };\n    case 'string': return { type: 'Singleton', base: string, value };\n  }\n}",
         },
       ],
       language: 'typescript',
@@ -719,7 +719,7 @@
       type: 'code',
       children: [
         {
-          text: "export function isSingleton(type: Type): type is Singleton {\n  return type.type === 'Singleton';\n}",
+          text: "function isSingleton(type: Type): type is Singleton {\n  return type.type === 'Singleton';\n}",
         },
       ],
       language: 'typescript',
