@@ -145,6 +145,71 @@
         },
         {
           type: 'a',
+          href: 'https://slate-explorer.glitch.me/',
+          children: [
+            {
+              text: '💻',
+              bold: true,
+            },
+            {
+              text: ' ',
+            },
+            {
+              text: 'Slate Explorer',
+              bold: true,
+            },
+          ],
+        },
+        {
+          text: ', dev tool (2021)',
+        },
+      ],
+    },
+    {
+      type: 'blockquote',
+      children: [
+        {
+          type: 'p',
+          children: [
+            {
+              text: 'A tool to help you explore the ',
+            },
+            {
+              type: 'a',
+              href: 'https://www.slatejs.org/',
+              children: [
+                {
+                  text: 'Slate',
+                },
+              ],
+            },
+            {
+              text: ' rich-text editor framework and ',
+            },
+            {
+              type: 'a',
+              href: 'https://docs.slatejs.org/api/transforms',
+              children: [
+                {
+                  text: 'its API',
+                },
+              ],
+            },
+            {
+              text: '.',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      type: 'p',
+      children: [
+        {
+          text: '',
+        },
+        {
+          type: 'a',
           href: 'https://github.com/jaked/programmable-matter',
           children: [
             {
