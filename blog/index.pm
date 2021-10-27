@@ -48,6 +48,31 @@
               type: 'p',
               children: [
                 {
+                  text: '2021-10-28 ',
+                },
+                {
+                  type: 'a',
+                  href: '/blog/2021-10-28-Reconstructing-TypeScript-part-5',
+                  children: [
+                    {
+                      text: 'Reconstructing TypeScript, part 5: intersection types',
+                    },
+                  ],
+                },
+                {
+                  text: '',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'li',
+          children: [
+            {
+              type: 'p',
+              children: [
+                {
                   text: '2021-10-14 ',
                 },
                 {

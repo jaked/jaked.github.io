@@ -136,7 +136,19 @@
               type: 'p',
               children: [
                 {
-                  text: 'Part 5: intersection types',
+                  text: '',
+                },
+                {
+                  type: 'a',
+                  href: '/blog/2021-10-28-Reconstructing-TypeScript-part-5',
+                  children: [
+                    {
+                      text: 'Part 5: intersection types',
+                    },
+                  ],
+                },
+                {
+                  text: '',
                 },
               ],
             },
