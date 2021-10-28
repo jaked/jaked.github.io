@@ -4,10 +4,16 @@
         <title>Technical Difficulties</title>
         <link>https://jaked.org/blog/</link>
         <description>Mostly programming</description>
-        <lastBuildDate>Mon, 18 Oct 2021 18:39:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Oct 2021 15:12:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Programmable Matter</generator>
         <copyright>© 2021 Jake Donham</copyright>
+        <item>
+            <title><![CDATA[How to implement a TypeScript-style type checker (Reconstructing TypeScript), part 5: intersection types]]></title>
+            <link>https://jaked.org/blog/2021-10-28-Reconstructing-TypeScript-part-5</link>
+            <guid>https://jaked.org/blog/2021-10-28-Reconstructing-TypeScript-part-5</guid>
+            <pubDate>Thu, 28 Oct 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How to implement a TypeScript-style type checker (Reconstructing TypeScript), part 4: union types]]></title>
             <link>https://jaked.org/blog/2021-10-14-Reconstructing-TypeScript-part-4</link>
