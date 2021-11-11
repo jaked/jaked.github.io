@@ -1029,7 +1029,7 @@
         },
         {
           type: 'a',
-          href: 'https://github.com/jaked/reconstructing-typescript/blob/part4/src/typecheck/synth.ts#L106',
+          href: 'https://github.com/jaked/reconstructing-typescript/blob/part4/src/typecheck/synth.ts#L124',
           children: [
             {
               text: 'synthBinary',
@@ -1042,7 +1042,7 @@
         },
         {
           type: 'a',
-          href: 'https://github.com/jaked/reconstructing-typescript/blob/part4/src/typecheck/synth.ts#L106',
+          href: 'https://github.com/jaked/reconstructing-typescript/blob/part4/src/typecheck/synth.ts#L162',
           children: [
             {
               text: 'synthLogical',

@@ -48,6 +48,31 @@
               type: 'p',
               children: [
                 {
+                  text: '2021-11-11 ',
+                },
+                {
+                  type: 'a',
+                  href: '/blog/2021-11-11-Reconstructing-TypeScript-part-6',
+                  children: [
+                    {
+                      text: 'Reconstructing TypeScript, part 6: narrowing',
+                    },
+                  ],
+                },
+                {
+                  text: '',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'li',
+          children: [
+            {
+              type: 'p',
+              children: [
+                {
                   text: '2021-10-28 ',
                 },
                 {
