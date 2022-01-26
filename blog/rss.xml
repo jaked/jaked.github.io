@@ -4,10 +4,16 @@
         <title>Technical Difficulties</title>
         <link>https://jaked.org/blog/</link>
         <description>Mostly programming</description>
-        <lastBuildDate>Thu, 11 Nov 2021 17:15:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Jan 2022 23:02:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Programmable Matter</generator>
         <copyright>© 2021 Jake Donham</copyright>
+        <item>
+            <title><![CDATA[Read the Code: GitHub Flat Viewer]]></title>
+            <link>https://jaked.org/blog/2022-01-28-Read-the-Code-GitHub-Flat-Viewer</link>
+            <guid>https://jaked.org/blog/2022-01-28-Read-the-Code-GitHub-Flat-Viewer</guid>
+            <pubDate>Fri, 28 Jan 2022 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How to implement a TypeScript-style type checker (Reconstructing TypeScript), part 6: narrowing]]></title>
             <link>https://jaked.org/blog/2021-11-11-Reconstructing-TypeScript-part-6</link>
